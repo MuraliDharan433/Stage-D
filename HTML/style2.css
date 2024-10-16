@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+.Nav-bar{
+    width: 100%;
+    background-color: antiquewhite;
+    position: fixed;
+    z-index: 10;
+}
+
+nav>ul>li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav>ul>li:hover{
+    background-color: aqua;
+    border-radius: 10px;
+}
+.nav-item > li{
+    list-style: none;
+    text-align: center;
+    /* padding-left: 0; */
+    padding: 10px 30px;
+}
+
+.nav-item{
+    padding-left:0;
+    margin: 5px;
+    position: absolute;
+    background-color: antiquewhite;
+    /* top: 0px; */
+    display: none;
+}
+
+.nav-item > li:hover{
+    background-color: aqua;
+}
+
+nav li::selection{
+    color: white;
+    background-color: black;
+}
+
+
+.Dropdown:hover > ul{
+    display: block;
+}
+
+.Background{
+    width: 100%;
+    height: 2000px;
+    /* background-color: aquamarine; */
+    /* background-image: url(/assets/images/Background\ img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; */
+    /* background-image: linear-gradient(to top right, red, yellow,green,white); */
+    
+}
+
+.outbox{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    position: relative;
+}
+
+.inbox{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    bottom: 0;
+}
+
+.Sticky{
+    width: 500px;
+    height: 30px;
+    position: sticky;
+    top: 50px;
+    /* right: 0; */
+    background-color: green;
+    opacity: 1;
+}
+
+.Box-size{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    padding: 20px;
+    box-sizing: ;
+}
+
+#Icon{
+    /* width: 200px; */
+    font-size: 100px;
+}
+
+.Whatsapp{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(30, 221, 30);
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+#Img1{
+    margin-top: 50px;
+    float: right;
+    
+}
+#Img2{
+    float: left;
+}
+
+#Over-flow{
+    width: 100px;
+    white-space: nowrap;
+    background-color: antiquewhite;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    /* overflow:auto; */
+}

@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+#img1{
+    width: 200px;
+    height: auto;
+    float: left;
+    /* clear: right; */
+}
+
+#img2{
+    width: 200px;
+    height: 200px;
+    float: right;
+   
+}
+/* 
+body{
+    border: solid 1px black;
+    display: flow-root;
+} */

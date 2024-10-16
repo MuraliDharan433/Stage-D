@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    margin: 0;
+}
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.continar {
+    /* background-color: red; */
+    height: 100vh;
+}
+
+.box1,
+.box2,
+.box3 {
+    background-color: aqua;
+    /* padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 50px; */
+    padding: 5px 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+    /* padding-inline-start: px; */
+
+
+
+}
+
+.box1 {
+    /* margin-left: 25%; */
+
+    text-align: center;
+
+}
+
+.box2 {
+    text-align: center;
+}
+
+.box3 {
+    text-align: center;
+}
+
+.box {
+    text-align: center;
+    display: inline;
+}
+
+.box button {
+    background-color: aqua;
+    padding: 10px 20px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    /* text-align: center; */
+    margin-top: 50px;
+    box-shadow: 0px 0px 1px 4px #4fc7d2;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+/* .link-a {
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.link-a a {
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    padding: 10px 20px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0px 0px 1px 4px #4fc7d2;
+    font-family: 'Times New Roman', Times, serif
+} */
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    /* top: 10px; */
+    font-size: 20px;
+    background-color: #4fc7d2;
+    /* margin: 0; */
+    text-align: center;
+    right: 0;
+    left: 0;
+    /* margin-top: 0px; */
+    z-index: 1;
+
+}
+
+.nav-bar>ul>li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 50px;
+}
+
+.nav-bar li:hover {
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.nav-bar>ul{
+    margin: 0px;
+}
+
+.logo{
+    /* float: left; */
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 2px 70px;
+    cursor: pointer;
+
+}
+.head-logi{
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 3px solid white ;
+    background-color: #4fc7d2;
+    margin-left: 90px;
+    /* position: absolute; */
+}
+
+/* .nav-bar ul li {
+    list-style: none;
+    display: inline-block;
+} */
+
+/* a:link{
+    color:rgb(255, 10, 247);
+}
+a:visited{
+    color: rgb(0, 255, 81);
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: blue;
+} */
+
+.options {
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 5px;
+    top: 52px;
+    left: 480px;
+}
+
+.list-2:hover .options {
+    display: block;
+}
+
+.bg-img {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assets/image/be93b7185242633.65625812c4cad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.first-botton {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+
+
+}
+
+.button {
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.gradient-backgroun {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.11;
+}
+
+.gradient-background {
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to right bottom, red, yellow, white);
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    text-wrap: wrap;
+    overflow-y:scroll;
+    /* text-overflow:ellipsis; */
+    /* white-space: nowrap; */
+}
+.fixed-item{
+    width: 60px;
+    height: 60px;
+    background-color: greenyellow;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+}
+.fixed-item i{
+    position: absolute;
+    top: 9px;
+    left: 13px;
+    color: white;
+    font-size: 40px;
+}
+.text-overflow{
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

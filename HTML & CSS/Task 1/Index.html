@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer_Box" >
+        <div class="inner_Box" id="inner">
+            <h2>Contact Us</h2>
+            
+            <form action="" onsubmit="erro(event)">
+
+            
+            <div class="step_1">
+                <div id="F_name">
+                    <label >First Name *</label>
+                    <input id="Frist_name" type="text" />
+                    <div class="error" id="Fname_err"></div>
+                </div>
+                <div id="L_name">
+                    <label>Last Name *</label>
+                    <input id="Last_name" type="text" />
+                    <div class="error" id="Lname_err"></div>
+                </div>
+            </div>
+
+            <div class="step_2">
+                <label>Email Address *</label>
+                <input id="Addre_inp" type="text" >
+                <div class="error" id="mail_err"></div>
+            </div>
+
+            <div class="step_3">
+                <label>Qurey Type *</label>
+
+                <div class="Radio_btns">
+                    <div id="F_radio">
+                        <input id="radio_1" name="radio" value="General" type="radio">
+                        <span>General Enquiry</span>
+                    </div>
+    
+                    <div id="L_radio">
+                        <input id="radio_2" name="radio" value="General" type="radio">
+                        <span>Support Request</span>
+                    </div>
+                </div>
+                <div class="error" id="radi_err"></div>
+            </div>
+
+            <div class="step_4">
+                <label>Message *</label>
+                <!-- <input id="Message" type="text"> -->
+                <textarea name="" id="Message" ></textarea>
+                <div class="error" id="message_err"></div>
+            </div>
+
+            <div class="step_5">
+                <div class="btn-check">
+                    <input type="checkbox" id="checkbox">
+                    <span>I hereby consent to being contacted by the team</span>
+                </div>
+                <div class="error" id="check_box"></div>
+            </div>
+
+            <div class="Submit_Btn">
+                <button type="submit">Submit</button>
+            </div>
+         </form>
+        </div>
+        
+        
+        <div class="Thanks_message" id="Thanks_message">
+            <h2>Thanks You For Contact us</h2>
+            <button id="close_Btn" onclick="closemess()"> Close</button>
+        </div>
+
+        <div id="loading_container">
+            <div class="loder">
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

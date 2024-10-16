@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+#Unorder-list{
+  list-style: none;
+  
+  
+}
+
+#Unorder-list li{
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.items{
+  text-decoration: none;
+  color: black;
+}
+
+#Box{
+  width: 300px;
+  height: 200px;
+  background-color: antiquewhite;
+  margin: 30px;
+  box-shadow: 10px 10px 5px rgb(186, 185, 185);
+  border-radius: 10px;
+}
+
+#button{
+  width: 160px;
+  height: 40px;
+  background: black;
+  color:white;
+  margin: 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+#button:hover{
+  background-color: aqua;
+  color: black;
+}
+
+#Pra::first-letter{
+ color: red;
+ font-size: 30px;
+}
+ 
+#Pra::first-line{
+  color: red;
+  font-size: 30px;
+ }
+

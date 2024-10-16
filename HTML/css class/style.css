@@ -1,0 +1,6 @@
+li:nth-child(odd){
+    color: red;
+}
+h1::before{
+    content: "kaksaknk ";
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid Layout</title>
+
+    <style>
+      .Box {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        /* grid-template-rows: auto auto auto; */
+        gap: 10px 20px;
+  
+        height: 100vh;
+      }
+      .items1,
+      .items2,
+      .items3,
+      .items4,.items0 {
+        background-color: antiquewhite;
+        padding: 30px;
+        border: 2px solid black;
+      }
+
+      .items0{
+        grid-row-start: 1;
+        grid-row-end:3 ;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Box">
+      <div class="items1">1</div>
+      <div class="items2">2</div>
+      <div class="items3">3</div>
+      <div class="items0">4</div>
+      <div class="items2">5</div>
+      <div class="items2">6</div>
+      <div class="items3">7</div>
+      <div class="items4">8</div>
+      
+  </body>
+</html>

@@ -1,0 +1,24 @@
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    /* margin: 5px; */
+    font-size: 8rem;
+    text-align: center;
+    
+    
+    
+}
+
+.container{
+display: flex;
+flex-direction: column;
+height: 100vh;
+gap: 10px;
+/* flex-wrap:wrap; */
+ justify-content:flex-start; 
+align-items:center;
+
+    
+
+}

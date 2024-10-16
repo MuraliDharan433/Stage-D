@@ -1,0 +1,135 @@
+.items{
+    width: 200px;
+    /* flex-basis: 200px; */
+    height: 500px;
+    margin: 5px;
+    background-color: aqua;
+}
+
+.inner-container{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* width: 400px; */
+    /* flex-direction:column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: space-evenly;
+    align-items: flex-end; */
+    /* justify-content: center; */
+    /* gap: 100px; */
+    /* align-items: center; */
+    /* align-content: space-between; */
+}
+
+
+@media screen and (max-width : 768px) {
+    .items{
+        background-color: blueviolet;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .items{
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+    
+    }
+
+    .inner-container{
+        justify-content: center;
+    }
+}
+
+
+
+/* .box:hover{
+    transform: scale(1.2);
+    width: 200px;
+}
+
+.flipper{
+    width:100%;
+    height: 100%;
+    
+} */
+
+/* .inner-box{
+    width: 200px;
+    height: 400px;
+    position: relative;
+    perspective: 1000px;
+}
+
+.box-1{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    position: absolute;
+    transition: all 1s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+}
+.box-2{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+    transition: all 1s;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.inner-box:hover .flipper{
+    transition: all 1s;
+    transform: rotateY(180deg);
+}
+
+.inner-box:hover .box-2{
+    transition: all 1s;
+    transform: rotateY(180deg);
+} */
+
+*{
+    margin: 0;
+}
+.outer-box{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(165, 160, 160);
+    padding: 30px;
+    position: relative;
+}
+.inner-box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    animation: boxmove  5s 2s infinite;
+    position: absolute;
+    left: 0;
+    
+    
+}
+
+@keyframes boxmove {
+    100%{
+        left: 500px;
+    }
+    
+    0%{
+        left:0
+    }
+}
+
+body img{
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+
